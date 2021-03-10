@@ -1,0 +1,90 @@
+.facebookContainer {
+    width: 19rem;
+    height: 16rem;
+    background: #3b5998;
+    display: inline-block;
+    text-align: center;
+    transition: 1s;
+}
+
+.facebookContainer:hover{
+    background-color: #496fc0;
+    cursor: pointer;
+}
+
+.facebookContainer div:first-child img {
+    width: 6rem;
+    margin-top: 1.7rem;
+}
+
+.facebookContainer p:nth-child(2) {
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: "Rajdhani";
+}
+
+.facebookContainer span {
+    color: white;
+    font-size: 1.6rem;
+    font-family: "Rajdhani";
+}
+
+.facebookContainer p:nth-child(4) {
+    color: white;
+    font-size: 1.6rem;
+    margin-top: -0.3rem;
+    font-family: "Rajdhani";
+}
+
+.facebookContainer:hover div:first-child{
+    display: none;
+}
+
+.facebookContainer div:last-child{
+    display: none;
+}
+
+.facebookContainer:hover div.hoverContainer{
+    display: inline-block;
+    text-align: left;
+    margin-right: 6rem;
+}
+
+.hoverContainer p:first-child{
+    margin-top: 1rem;
+    color: white;
+    font-family: "Rajdhani";
+    font-size: 3rem;
+}
+
+.hoverContainer p:nth-child(2) {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-family: "Rajdhani";
+    color: white;
+}
+
+.hoverContainer p:nth-child(3) {
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    color: white;
+}
+
+.hoverContainer p:nth-child(4) {
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    color: white;
+}
+
+.hoverContainer p:nth-child(5) {
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    color: white;
+}
+
+.hoverContainer p:nth-child(6) {
+    font-size: 1.3rem;
+    font-family: "Rajdhani";
+    color: white;
+}
